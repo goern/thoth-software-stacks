@@ -1,0 +1,193 @@
+[
+    {
+        "package": {
+            "key": "werkzeug",
+            "package_name": "Werkzeug",
+            "installed_version": "0.14.1"
+        },
+        "dependencies": []
+    },
+    {
+        "package": {
+            "key": "tensorflow",
+            "package_name": "tensorflow",
+            "installed_version": "1.4.0"
+        },
+        "dependencies": [
+            {
+                "key": "enum34",
+                "package_name": "enum34",
+                "installed_version": "1.1.6",
+                "required_version": ">=1.1.6"
+            },
+            {
+                "key": "six",
+                "package_name": "six",
+                "installed_version": "1.11.0",
+                "required_version": ">=1.10.0"
+            },
+            {
+                "key": "tensorflow-tensorboard",
+                "package_name": "tensorflow-tensorboard",
+                "installed_version": "0.4.0rc3",
+                "required_version": "<0.5.0,>=0.4.0rc1"
+            },
+            {
+                "key": "wheel",
+                "package_name": "wheel",
+                "installed_version": "0.30.0",
+                "required_version": ">=0.26"
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.14.0",
+                "required_version": ">=1.12.1"
+            },
+            {
+                "key": "protobuf",
+                "package_name": "protobuf",
+                "installed_version": "3.5.1",
+                "required_version": ">=3.3.0"
+            }
+        ]
+    },
+    {
+        "package": {
+            "key": "tensorflow-tensorboard",
+            "package_name": "tensorflow-tensorboard",
+            "installed_version": "0.4.0rc3"
+        },
+        "dependencies": [
+            {
+                "key": "six",
+                "package_name": "six",
+                "installed_version": "1.11.0",
+                "required_version": ">=1.10.0"
+            },
+            {
+                "key": "markdown",
+                "package_name": "markdown",
+                "installed_version": "2.6.11",
+                "required_version": ">=2.6.8"
+            },
+            {
+                "key": "html5lib",
+                "package_name": "html5lib",
+                "installed_version": "0.9999999",
+                "required_version": "==0.9999999"
+            },
+            {
+                "key": "wheel",
+                "package_name": "wheel",
+                "installed_version": "0.30.0",
+                "required_version": ">=0.26"
+            },
+            {
+                "key": "werkzeug",
+                "package_name": "werkzeug",
+                "installed_version": "0.14.1",
+                "required_version": ">=0.11.10"
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.14.0",
+                "required_version": ">=1.12.0"
+            },
+            {
+                "key": "bleach",
+                "package_name": "bleach",
+                "installed_version": "1.5.0",
+                "required_version": "==1.5.0"
+            },
+            {
+                "key": "protobuf",
+                "package_name": "protobuf",
+                "installed_version": "3.5.1",
+                "required_version": ">=3.3.0"
+            }
+        ]
+    },
+    {
+        "package": {
+            "key": "protobuf",
+            "package_name": "protobuf",
+            "installed_version": "3.5.1"
+        },
+        "dependencies": [
+            {
+                "key": "six",
+                "package_name": "six",
+                "installed_version": "1.11.0",
+                "required_version": ">=1.9"
+            },
+            {
+                "key": "setuptools",
+                "package_name": "setuptools",
+                "installed_version": "38.4.0",
+                "required_version": null
+            }
+        ]
+    },
+    {
+        "package": {
+            "key": "numpy",
+            "package_name": "numpy",
+            "installed_version": "1.14.0"
+        },
+        "dependencies": []
+    },
+    {
+        "package": {
+            "key": "markdown",
+            "package_name": "Markdown",
+            "installed_version": "2.6.11"
+        },
+        "dependencies": []
+    },
+    {
+        "package": {
+            "key": "html5lib",
+            "package_name": "html5lib",
+            "installed_version": "0.9999999"
+        },
+        "dependencies": [
+            {
+                "key": "six",
+                "package_name": "six",
+                "installed_version": "1.11.0",
+                "required_version": null
+            }
+        ]
+    },
+    {
+        "package": {
+            "key": "enum34",
+            "package_name": "enum34",
+            "installed_version": "1.1.6"
+        },
+        "dependencies": []
+    },
+    {
+        "package": {
+            "key": "bleach",
+            "package_name": "bleach",
+            "installed_version": "1.5.0"
+        },
+        "dependencies": [
+            {
+                "key": "html5lib",
+                "package_name": "html5lib",
+                "installed_version": "0.9999999",
+                "required_version": "<0.99999999,!=0.9999,!=0.99999,>=0.999"
+            },
+            {
+                "key": "six",
+                "package_name": "six",
+                "installed_version": "1.11.0",
+                "required_version": null
+            }
+        ]
+    }
+]
