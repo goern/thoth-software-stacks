@@ -1,0 +1,56 @@
+[{
+        "package": {
+            "key": "pytz",
+            "package_name": "pytz",
+            "installed_version": "2011k"
+        },
+        "dependencies": []
+    },
+    {
+        "package": {
+            "key": "python-dateutil",
+            "package_name": "python-dateutil",
+            "installed_version": "2.6.1"
+        },
+        "dependencies": [{
+            "key": "six",
+            "package_name": "six",
+            "installed_version": "1.11.0",
+            "required_version": ">=1.5"
+        }]
+    },
+    {
+        "package": {
+            "key": "pandas",
+            "package_name": "pandas",
+            "installed_version": "0.21.0"
+        },
+        "dependencies": [{
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "1.9.0",
+                "required_version": ">=1.9.0"
+            },
+            {
+                "key": "python-dateutil",
+                "package_name": "python-dateutil",
+                "installed_version": "2.6.1",
+                "required_version": ">=2"
+            },
+            {
+                "key": "pytz",
+                "package_name": "pytz",
+                "installed_version": "2011k",
+                "required_version": ">=2011k"
+            }
+        ]
+    },
+    {
+        "package": {
+            "key": "numpy",
+            "package_name": "numpy",
+            "installed_version": "1.9.0"
+        },
+        "dependencies": []
+    }
+]
