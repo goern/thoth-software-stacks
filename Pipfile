@@ -12,6 +12,7 @@ jupyter = "*"
 matplotlib = "*"
 pandas = "*"
 numpy = "*"
+"node2vec" = "*"
 
 
 [dev-packages]
